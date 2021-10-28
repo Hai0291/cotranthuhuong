@@ -6,9 +6,9 @@
     --font-size-container__psg-mini-mobile: 0.9rem;
     --line-height-container__psg-mini-mobile: 1.2rem;
     --white-color: #fff;
-    --primary-color: #3D62A9;
-    --light-primary-color: #61afeb;
-    --dark-primary-color: #0a4375;
+    --primary-color: #F1B736;
+    --light-primary-color: #f3cd81;
+    --dark-primary-color: #c08d1f;
     --text-color: #000;
     --text-light-color: #B3B3B3;
     --header-height: 7rem;
@@ -98,17 +98,17 @@ html {
 }
 
 .modal-container-icon {
+    color: var(--light-primary-color);
     position: absolute;
     top: 75px;
     right: -20px;
     font-size: 5.5rem;
-    color: var(--dark-primary-color);
     padding: 10px;
     cursor: pointer;
 }
 
 .modal-container-icon:hover {
-    color: var(--primary-color);
+    color: var(--dark-primary-color);
 }
 
 @keyframes modalFadeIn {
