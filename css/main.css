@@ -210,14 +210,12 @@
 .content__mail-third {
     position: relative;
     width: 400px;
-    filter: brightness(95%);
 }
 
 .content__mail-first:hover,
 .content__mail-second:hover,
 .content__mail-third:hover {
     z-index: 2;
-    filter: brightness(100%);
     cursor: pointer;
 }
 
